@@ -1,0 +1,62 @@
+.main {
+  background: #ecebeb;
+}
+
+button {
+  cursor: pointer;
+  background: #dadada;
+  border-radius: 3px;
+  outline: 0;
+  margin-right: 3px;
+}
+
+button:hover {
+  background: #b5b5b5;
+}
+
+.close-button {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.attributes .title,  .new-node-container .new-node-title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.attributes .attribute {
+  display: flex;
+  padding: 3px 3px 3px 0px;
+  font-size: 16px;
+}
+
+.attributes .attribute .key {
+  margin-right: 2px;
+}
+
+.new-node-container .new-node-label-input-button {
+  display: flex;
+  height: 30px;
+  margin-top: 25px;
+}
+
+.new-node-container .new-node-input{
+  margin: 0px 10px;
+  width: 160px;
+  font-size: 14px;
+  padding: 3px 3px 3px 6px;
+  border-radius: 3px;
+}
+
+
+.new-node-container .new-node-label{
+  align-self: center;
+}
+
+.new-node-container button{
+  width: 70px;
+  font-size: 14px;
+  border-color: none;
+}
