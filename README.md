@@ -1,3 +1,5 @@
-Kon's Sortable Tree
+Kon's Sortable Tree!
 
-[Live](http://kon-familytree.surge.sh/).
+[Live](http://kon-familytree.surge.sh/)
+
+This project was built with React!

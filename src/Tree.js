@@ -75,6 +75,7 @@ export default class Tree extends Component {
                     },
                   }).treeData,
                 }))
+                this.setState({newNodeName: ''})
                 this.closeModal()
               }
             }}

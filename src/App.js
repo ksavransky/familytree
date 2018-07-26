@@ -6,20 +6,22 @@ import './App.css';
 const seedData = [
   {
     id: 1,
-    title: 'Super Parent',
+    title: 'Eddard',
     attributes: {
-      name: 'Bob',
-      age: '120',
-      height: '6ft'
+      name: 'Eddard Stark',
+      age: '60 - deceased',
+      height: '6.5ft',
+      position: "King's Hand"
     },
     children: [
       {
         id: 2,
-        title: 'Child1',
+        title: 'Robb',
         attributes: {
-          name: 'Bob Jr',
-          age: '100',
-          height: '6.5ft'
+          name: 'Robb Stark',
+          age: '25 - deceased',
+          height: '6ft',
+          position: 'Vengeful Son'
         },
         children: [
           {
@@ -30,11 +32,23 @@ const seedData = [
       },
       {
         id: 4,
-        title: 'Child2'
+        title: 'Sansa',
+        attributes: {
+          name: 'Sansa Stark',
+          age: '20',
+          height: '5ft',
+          position: 'Future Queen?'
+        }
       },
       {
         id: 5,
-        title: 'Child3',
+        title: 'Jon',
+        attributes: {
+          name: 'Jon Snow',
+          age: '25',
+          height: '5.9ft',
+          position: 'King of the North'
+        },
         children: [
           {
             id: 6,
